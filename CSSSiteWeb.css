@@ -349,6 +349,7 @@ h4{
 	width: 20em;
     margin-left: auto;
 	margin-right: auto;
+	margin-bottom:  1em;
     box-sizing: border-box;
     color: #fff;
 
@@ -362,6 +363,9 @@ h4{
 	height:4em;
 	font-size:2em;
 }
+
+
+
 /* footer*/
 footer{
 	color: white;
@@ -445,6 +449,12 @@ footer{
 .miseEnAvant_content {
     padding: 1em 1em;
 }
+
+.presentation{
+	flex-direction: column;
+}
+
+
 
 }
 
@@ -541,6 +551,10 @@ body{
 }
 
 .miseEnAvant{
+	flex-direction: row;
+}
+
+.presentation{
 	flex-direction: row;
 }
 
