@@ -442,6 +442,10 @@ footer{
 	flex-direction: column;
 }
 
+.miseEnAvant_content {
+    padding: 1em 1em;
+}
+
 }
 
 
