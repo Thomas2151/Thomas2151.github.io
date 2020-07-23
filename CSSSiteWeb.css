@@ -338,20 +338,30 @@ h4{
 .article img{
 	height: auto;
     margin-bottom: 0.5em;
-    max-width:15.5em;
+    max-width: 15.5em;
     max-height: 15.5em;
     display: block;
-	
+    margin-left: auto;
+    margin-right: auto;
   
 }
 .article{
-	width: 20%;
+	width: 20em;
     margin-left: auto;
 	margin-right: auto;
     box-sizing: border-box;
     color: #fff;
+
+    border: 1px solid #bac6d3;
+    border-radius: 8px;
+    padding: 1em;
+
 }
 
+.article h3{
+	height:4em;
+	font-size:2em;
+}
 /* footer*/
 footer{
 	color: white;
