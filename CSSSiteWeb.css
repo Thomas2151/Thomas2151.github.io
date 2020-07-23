@@ -129,15 +129,16 @@ a.button:hover {
     margin: 0 0 .5em;
 }
 
-.card h2{
+.card h3{
 	height:2.5em;
+	
 }
 
 .card {
     border: 1px solid #bac6d3;
     border-radius: 8px;
     padding: 1em;
-    height: 32em;
+    
 }
 
 /*Carousel flex */
@@ -180,10 +181,16 @@ a.button:hover {
 .rose{
 	color: #FD6C9E;
 }
+h2{
+	font-size:  3em;
+}
+h3{
+	font-size:  2em;
+}
 h2,h3{
 	text-align: center;
 	color:  #D0006F;
-	font-size:  3em;
+	
 }
 
 /* contenu coups de coeurs*/
@@ -204,11 +211,12 @@ h2,h3{
 
 .coup_de_coeur img {
 
-	width: 40%;
-	max-width: 40em;
-	min-height: 40%;
-	height: auto;
-  }
+
+	max-width:15.5em;
+    max-height: 15.5em;
+	
+}
+
 
 
 
