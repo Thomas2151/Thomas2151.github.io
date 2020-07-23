@@ -368,7 +368,10 @@ text-align: center;
 	grid-auto-rows: minmax(10em, auto);	
 }
 
- 
+ .carousel{
+	margin-right: 1em;
+	margin-left: 1em;
+}
 
 }
 
