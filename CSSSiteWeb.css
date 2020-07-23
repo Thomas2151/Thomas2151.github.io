@@ -7,11 +7,11 @@ html{
   	font-family: Arial;
 }
 
-	body {
-		margin:0em;
-		margin-top: 1em;
-		font-size:1.6em;
-	}	
+body {
+	margin:0em;
+	margin-top: 1em;
+	font-size:1.6em;
+}	
 /*carrousel*/
 div#slider>figure.wrapper {
     position: relative;
@@ -378,6 +378,9 @@ text-align: center;
 
 @media screen and (min-width:   70em) { 
 
+body{
+		font-size:1.6em;
+}
  .navigation{
  	display: block ;
  }
