@@ -440,7 +440,7 @@ footer{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	
+
 }
 
 .footer_bottom a {
@@ -620,12 +620,20 @@ body{
 .footer{
 	margin:auto;
     padding: 0em 20em 0em 20em;
-	flex-wrap: wrap;
 	box-sizing: border-box;
-	
+	flex-direction: row;
 	justify-content: space-between;
+	text-align: left;
 }
 
+.footer_content li {
+    display: list-item;
+
+}
+
+.ul_secondaire{
+	display: block;
+}
 
 }
 
