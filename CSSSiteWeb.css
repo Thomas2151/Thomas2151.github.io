@@ -60,7 +60,7 @@ input.search-submit {
 	padding: 1em 2em;
 	border-radius: 0em 1em 1em 0em;
 }
-.button {
+.container .button {
   border: 0em solid transparent;
   background:url(img/search4.png);
   background-repeat: no-repeat;
