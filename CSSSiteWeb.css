@@ -1,10 +1,7 @@
 
 html{
 	font-size: 62.5%;
-
-	stop-color: green #aaa;
 	scroll-behavior: smooth;
-
 }
 
 body {
@@ -12,6 +9,72 @@ body {
 	font-size:1.6em;
 	font-family: 'Quicksand', sans-serif;
 }	
+
+
+
+.head{
+	display: flex;
+	overflow: hidden;
+	background-color: #333;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	justify-content: space-between;
+}
+
+.logo_header img{
+	margin-right: 1em;
+}
+
+
+/*Code search bar*/
+.container {
+  width: 20em;
+}
+
+input[type="search"] {
+  border-radius: 1em 1em 1em 1em;
+  border: 1px solid transparent;
+  width: 100%;
+  padding: 0.375rem 1.25rem;
+  margin-right: 1em;
+}
+input[type="search"]:focus {
+  transition: all 0.5s;
+  box-shadow: 0 0 40px #D0006F;
+  border-color: transparent;
+  outline: none;
+}
+
+form.search-form {
+  display: flex;
+  justify-content: center;
+}
+
+input.search-field {
+  flex-shrink: 0;
+  height: 3em;
+}
+
+input.search-submit {
+	padding: 1em 2em;
+	border-radius: 0em 1em 1em 0em;
+}
+.button {
+  border: 0em solid transparent;
+  background:url(img/search4.png);
+  background-repeat: no-repeat;
+  margin-top: 0.5em;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  cursor: pointer;
+  outline: none;
+}
+/*fin code */
+
 
 .search{
 	justify-content: center;
@@ -456,17 +519,6 @@ footer{
 
 
 
-.head{
-	display: flex;
-	flex-direction: row;
-	overflow: hidden;
-	background-color: #333;
-	padding-top: 1em;
-	padding-left: 1em;
-	padding-right: 1em;
-	justify-content: space-between;
-}
-
 
 
 
@@ -474,15 +526,15 @@ footer{
 --------------------------------------------- */
 @media screen and (min-width: 20em) { 
 
-/*header*/
-.grid-container {
-	grid-template-columns: repeat(1, 1fr);
-	grid-gap: 1em;
-	grid-auto-rows: minmax(1em, auto);
+.head{
+	flex-direction:column; ;
 }
 
+
+/*header*/
+
 .search input{
-	width:25%;
+	width:100%;
 }
 
 figure{
@@ -533,6 +585,10 @@ body{
 	   width:70%;
 }
 
+.head{
+	display: flex;
+	flex-direction: row;
+}
 
  .navigation{
  	display: block ;
@@ -542,32 +598,6 @@ body{
 	margin-right: 10em;
 	margin-left: 10em;
 }
-/*header*/
-/*
-.grid-container {
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 1em;
-	grid-auto-rows: minmax(1em, auto);
-}
-
-.logo_principal{
-	grid-column: 1;
-	grid-row: 1;
-}
- 
-.search{
-	grid-column: 2;
-	grid-row: 1;
-	
-}
-
-
-
-.logo_header{
-	grid-column: 3;
-	grid-row: 1;
-}
-*/
 
 /* contenu */
 
